@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background: #444;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+main {
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section img {
+    max-width: 100%; /* 画像がコンテナを超えないように */
+    height: auto;    /* 比率を保ちながらリサイズ */
+    display: block;  /* 画像を中央寄せにしやすくする */
+    margin: 0 auto;  /* 画像を中央寄せ */
+    border-radius: 10px; /* 角を丸くする */
+}
+
+.hobby, .favorite {
+    margin-bottom: 20px;
+    text-align: center; /* 画像とテキストを中央揃え */
+}
+
+.hobby img, .favorite img {
+    max-width: 300px; /* 趣味や好きなものセクションの画像の最大幅 */
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+}
